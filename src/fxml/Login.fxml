@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: grey;" styleClass="bodybg" stylesheets="@login.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotel.LoginController">
+    <children>
+        <TextField fx:id="username" layoutX="73.0" layoutY="136.0" promptText="Username" />
+        <PasswordField fx:id="password" layoutX="73.0" layoutY="213.0" promptText="Password" />
+        <Button layoutX="176.0" layoutY="288.0" mnemonicParsing="false" onAction="#login" style="-fx-background-color: #06e014;" text="LOGİN" textFill="#202220" />
+        <AnchorPane layoutX="37.0" layoutY="7.0" prefHeight="57.0" prefWidth="600.0" style="-fx-background-color: #2c3e50;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label layoutX="70.0" layoutY="12.0" prefHeight="57.0" prefWidth="600.0" text="                OTEL MÜŞTERİ TAKİP SİSTEMİ" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <font>
+                        <Font name="System Bold" size="25.0" />
+                    </font>
+                </Label>
+                <MenuBar layoutX="-6.0" layoutY="-3.0" style="-fx-background-color: #7f8c8d;">
+                    <menus>
+                        <Menu mnemonicParsing="false" text="Hakkımızda">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="Close" />
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+            </children>
+        </AnchorPane>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="343.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/unlock.png" />
+            </image>
+        </ImageView>
+      <Button layoutX="85.0" layoutY="288.0" mnemonicParsing="false" onAction="#exit" text="Exit" textFill="RED" />
+    </children>
+</AnchorPane>
