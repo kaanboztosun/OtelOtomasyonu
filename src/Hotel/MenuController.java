@@ -67,7 +67,7 @@ public class MenuController implements Initializable {
         Node source = (Node) a.getSource();
         Stage stage = (Stage) source.getScene().getWindow();
         stage.close();
-    }
+    } 
 
     @FXML
     private void reserve(ActionEvent a) {
