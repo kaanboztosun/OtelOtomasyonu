@@ -60,6 +60,8 @@ class SuitOda extends Odalar {
 
     private String ebeveynBanyosu;
     private String oyunAlanı;
+     private int balkonAdedi;
+        
    
     public SuitOda() {
     }
