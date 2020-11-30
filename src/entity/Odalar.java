@@ -60,8 +60,7 @@ class SuitOda extends Odalar {
 
     private String ebeveynBanyosu;
     private String oyunAlanı;
-    private int balkonAdedi;
-
+   
     public SuitOda() {
     }
 
@@ -96,7 +95,7 @@ class StandartOda extends Odalar {
 
     private String televizyon;
     private String banyo;
-    private int balkonAdedi;
+    
 
     public StandartOda() {
     }
@@ -134,7 +133,7 @@ class KralDairesi extends Odalar {
     private String oyunKonsolu;
     private String havuz;
     private String sauna;
-    private int balkonAdedi;
+   
 
     public KralDairesi() {
     }
